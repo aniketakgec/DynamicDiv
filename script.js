@@ -67,11 +67,29 @@ function changeColor()
 {
     let rowId=document.getElementById('rowID').value;
     let colId=document.getElementById('colID').value;
+
+    var x=document.getElementById('row').value;
+    var y=document.getElementById('col').value;
+    
+    if(rowId > x || rowId <0 || colId>y || colId<0)
+    {
+       
+        document.getElementById('ValidationMessage').style.display='block';
+       setTimeout(()=>{
+        document.getElementById('ValidationMessage').style.display='none';
+       },2500)
+       
+        return false;
+        
+
+    }
+   
+    
     
    
     let color=document.getElementById('colorName').value;
     
-    var y=document.getElementById('col').value;
+    
     let index=y*(Number(rowId )-1)+Number(colId);
   
     document.getElementById(index).style.backgroundColor=color;

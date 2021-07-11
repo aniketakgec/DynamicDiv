@@ -25,6 +25,9 @@ h3{
     flex-wrap: wrap;
     justify-content: center;
 }
+#ValidationMessage{
+    display: none;
+}
 form{
     background-color: rgb(218, 235, 250);
     padding: 50px;
