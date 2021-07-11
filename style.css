@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+h3{
+    color: rgb(132, 16, 209);
+    text-transform:capitalize;
+    font-weight: bold;
+    font-size: 100px;
+}
 
 .child{
     margin-left: 20px;
@@ -16,10 +22,11 @@
 }
 .formContainer{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 form{
-    background-color: aliceblue;
+    background-color: rgb(218, 235, 250);
     padding: 50px;
     margin-top: 20px;
     display: flex;
@@ -43,4 +50,8 @@ td>div{
     border-radius: 10px;
 }
 
-
+#tableDiv{
+    display: flex;
+   
+    
+}

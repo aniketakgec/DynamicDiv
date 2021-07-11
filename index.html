@@ -25,14 +25,17 @@
     </form>
     
     <form onsubmit="return changeColor()">
-
+       
         <H3>Change Color</H3>
         <div class="form-group">
-            <label for="cellID">Enter id of the cell </label>
-            <input type="number" class="form-control" id="cellID"  placeholder="Enter id" required>
+            <label for="rowID">Enter row number </label>
+            <input type="number" class="form-control" id="rowID"  placeholder="Enter row no..." required>
+
+            <label for="colID">Enter column number </label>
+            <input type="number" class="form-control" id="colID"  placeholder="Enter column no..." required>
         </div>
         <div class="form-group">
-            <label for="updateColorName">Enter color name</label>
+            <label for="updateColorName">Enter color name / Hex Code</label>
             <input type="text" class="form-control" id="colorName"  placeholder="Enter color name" required>
           </div>
         
@@ -42,10 +45,10 @@
     
    </div>
 
-   <div class="tablediv
-   ">
+   <div id="tableDiv">
 
    </div>
+
    
 
 
