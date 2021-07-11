@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    color: rgb(132, 16, 209);
+    text-transform:capitalize;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.child{
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+    height: 120px;
+    width: 120px;
+    background-color:bisque
+   
+    
+}
+.formContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+form{
+    background-color: rgb(218, 235, 250);
+    padding: 50px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+table{
+   
+    margin-left: 25%; 
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border:none;
+
+}
+td,tr{
+  
+    padding: 10px;
+}
+td>div{
+    border-radius: 10px;
+}
+
+#tableDiv{
+    display: flex;
+   
+    
+}
